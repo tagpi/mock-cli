@@ -1,5 +1,5 @@
 {
-  "name": "mock-cli",
+  "name": "-mock-cli",
   "version": "1.0.0",
   "description": "Local server for @mock applications.",
   "main": "index.js",
