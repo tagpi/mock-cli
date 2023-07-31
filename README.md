@@ -60,7 +60,7 @@ Local server for @mock applications.
 
 ```json
 {
-  "/api": "dir:./sample",
+  "/api": "static:./sample",
   "/api/test": "./sample/test.json",
   "/api/post": "post:./sample/test.json"
 }
