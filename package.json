@@ -11,7 +11,7 @@
   "bin": {
     "mock-cli": "bin/index.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "express": "^4.18.2",
     "http-proxy-middleware": "^2.0.6"
   }
