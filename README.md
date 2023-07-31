@@ -56,12 +56,14 @@ Local server for @mock applications.
 | get:{src} | returns the {src} file for get calls only. |
 | post:{src} | returns the {src} file for post calls only. |
 | dir:{src} | uses the API path as the directory path to the file. |
+| static:{src} | uses the path to serve directory contents. |
 | proxy:{src} | creates a proxy that forwards to {src}. |
 
 ```json
 {
-  "/api": "static:./sample",
-  "/api/test": "./sample/test.json",
-  "/api/post": "post:./sample/test.json"
+  "/": "static:./public",
+  "/api": "dir:./public/api",
+  "/api/test": "./public/api/test.json",
+  "/api/post": "post:./public/api/test.json"
 }
 ```
