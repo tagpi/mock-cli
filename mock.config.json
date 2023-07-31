@@ -1,0 +1,20 @@
+{
+  "port": 3000,
+  "reload": true,
+  "index": "./public/index.html",
+  "verbose": false,
+  "path": {
+    "/": "static:./public",
+    "/static": "static:./public",
+    "/api": "dir:./public/api",
+    "/api/test": "./public/api/test.json",
+    "/api/post": "post:./public/api/test.json",
+    "/api/proxy": {
+      "type": "proxy",
+      "src": "https://www.google.com",
+      "options": { 
+        "pathRewrite": { "^/api/proxy" : "/" }
+      }
+    }
+  }
+}
