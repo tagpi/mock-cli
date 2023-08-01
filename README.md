@@ -8,62 +8,67 @@ Local server for @mock applications.
 | Property | Description |
 | -------- | ----------- |
 | port     | Server port. |
-| reload   | Reloads the config every request. |
-| index    | File to serve when a route was not found. |
-| path     | Routing paths. |
+| index    | File to serve when a route was not found. Supports http and ./ |
+| route     | Routing paths. |
+| verbose  | | Outputs all files served on console |
+
 
 
 ## API Routing Path Definitions
 
 ```json
 {
+  "/": {
+    "target": "./public"
+  },
   "/api": { 
-    "src": "./sample",
-    "dir": true
+    "api": true,
+    "target": "./public/api"
   },
   "/api/test": {
-    "src": "./sample/test.json",
+    "target": "./public/test.json",
   },
   "/api/test2": {
-    "method": "POST",
-    "src": "./sample/test.json",
+    "methods": ["post"],
+    "target": "./public/test.json",
   },
-  "/api/proxy": {
-    "type": "proxy",
-    "src": "https://www.google.com",
+  "/api/google": {
+    "proxy": true,
+    "target": "https://www.google.com",
     "options": { 
-      "pathRewrite": { "^/api/proxy" : "/" }
+      "pathRewrite": { "^/api/google" : "/" }
     }
   }
 }
 ```
 
-| Property | Values | Description |
-| -------- | ------- | ----------- |
-| method   | get post | Restricts the request method used. |
-| type     | api proxy static | Data format to return. |
-| src      | | Local relative path to the assets. <br> Proxy path for proxies.|
-| dir      | false true | Maps based on the folder path. |
-| verbose  | | Outputs all files served on console |
-
+| Property | Values     | Description |
+| -------- | ---------- | ----------- |
+| methods  | get post   | Restricts the request method used. |
+| api      | false true | Mock API routes. |
+| target   |            | Url or file path to the assets.|
+| proxy    | false true | Creates a proxy route. |
 
 
 ## Shortcuts
 
 | Shortcut String | Description | 
 | --- | --- |
-| {src} | returns the {src} file based on the file extension. |
-| get:{src} | returns the {src} file for get calls only. |
-| post:{src} | returns the {src} file for post calls only. |
-| dir:{src} | uses the API path as the directory path to the file. |
-| static:{src} | uses the path to serve directory contents. |
-| proxy:{src} | creates a proxy that forwards to {src}. |
+| {src} | Returns the {src} file. |
+| get:{src} | Returns the {src} file for get calls only. |
+| post:{src} | Returns the {src} file for post calls only. |
+| get post:{src} | Returns the {src} file for get and post calls only. |
+| api:{src} | Uses {src} files as mock API. |
+| proxy:{src} | Creates a proxy that forwards to {src}. |
 
 ```json
 {
-  "/": "static:./public",
-  "/api": "dir:./public/api",
-  "/api/test": "./public/api/test.json",
-  "/api/post": "post:./public/api/test.json"
+  "/": "./public",
+  "/static": "./public/static",
+  "/api": "api:./public/api",
+  "/api/not-test": "api:./public/api/test.json",
+  "/api/post": "api post:./public/api/test.json",
+  "/api/google": "proxy:https://www.google.com"
 }
 ```
+
