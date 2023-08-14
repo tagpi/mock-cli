@@ -13,9 +13,7 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6"
-  },
-  "devDependencies": {
+    "http-proxy-middleware": "^2.0.6",
     "lodash": "^4.17.21",
     "node-fetch": "^2.6.12"
   }
