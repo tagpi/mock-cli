@@ -1,0 +1,69 @@
+{ 
+  "id": "tech",
+  "label": "Technology Radar",
+  "base-path": "/radar",
+  "groups": [
+    { 
+      "id": "techniques",
+      "label": "Technique",
+      "percent": 25,
+      "description": "Lorem ipsum ...",
+      "color": "#ffeeff",
+      "record-color": "green",
+      "record-hover-color": "red"
+    },
+    {
+      "id": "tools",
+      "label": "Tools",
+      "percent": 25,
+      "description": "Lorem ipsum ...",
+      "color": "#eeeeff",
+      "record-color": "blue",
+      "record-hover-color": "red"
+    },
+    { 
+      "id": "platforms",
+      "label": "Platforms",
+      "percent": 25,
+      "description": "Lorem ipsum ...",
+      "color": "#ffeeee",
+      "record-color": "yellow",
+      "record-hover-color": "red"
+    },
+    { 
+      "id": "languages-and-frameworks",
+      "label": "Languages & Frameworks",
+      "percent": 25,
+      "description": "Lorem ipsum ...",
+      "color": "#eeffee",
+      "record-color": "orange",
+      "record-hover-color": "red"
+    }
+  ],
+  "stages": [
+    { 
+      "id": "hold",
+      "label": "Hold",
+      "area": 40,
+      "description": "Lorem ipsum ..."
+    },
+    { 
+      "id": "assess",
+      "label": "Assess",
+      "area": 22,
+      "description": "Lorem ipsum ..."
+    },
+    { 
+      "id": "trial",
+      "label": "Trial",
+      "area": 20,
+      "description": "Lorem ipsum ..."
+    },
+    {
+      "id": "adopt",
+      "label": "Adopt",
+      "area": 18,
+      "description": "Lorem ipsum ..."
+    }
+  ]
+}

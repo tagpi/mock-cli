@@ -1,0 +1,55 @@
+{
+
+  "port": 3000,
+  "index": "https://mock-ao0.pages.dev/system/host/index.html",
+  "verbose": false,
+  "extends": [],
+
+  "route": { 
+    
+    "/": "https://mock-ao0.pages.dev/system/host",
+    "/api/config": "./host.config.json",
+    "/favicon.ico": "https://mock-ao0.pages.dev/system/host/assets/favicon.ico",
+    "/assets": "./assets",
+
+    "/api/theme/:themeId": "api:./api/theme",
+    "/api/user": "api:./api/user",
+    "/api/layout": "api:./api/layout",
+    
+    "/feature/google/oauth": "https://mock-ao0.pages.dev/google/oauth",
+    "/feature/discord/oauth": "https://mock-ao0.pages.dev/discord/oauth",
+    "/feature/layout/material": "https://mock-ao0.pages.dev/system/layout",
+    
+    "/package/overview": "https://mock-ao0.pages.dev/system/overview",
+    "/api/user/dashboard": "https://mock-ao0.pages.dev/system/overview/assets/dashboard.json",
+    "/api/overview/config": "https://mock-ao0.pages.dev/system/overview/assets/config.json",
+    
+    "/package/error": "https://mock-ao0.pages.dev/system/error",
+    "/api/error/config": "https://mock-ao0.pages.dev/system/error/assets/config.json",
+    "/api/error/i18n/en-US": "https://mock-ao0.pages.dev/system/error/assets/i18n/en-US.json",
+    "/api/error/i18n/es-US": "https://mock-ao0.pages.dev/system/error/assets/i18n/es-US.json",
+    
+    "/package/greencloud": "https://mock-ao0.pages.dev/thoughtworks/cloud-carbon-footprint",
+    "/api/greencloud/config": "https://mock-ao0.pages.dev/thoughtworks/cloud-carbon-footprint/assets/config.json",
+    "/api/greencloud/dashboard": "https://mock-ao0.pages.dev/thoughtworks/cloud-carbon-footprint/assets/dashboard.json",
+    "/api/greencloud/pass": "proxy:https://demo.cloudcarbonfootprint.org/api",
+
+    "/package/radar": "https://mock-ao0.pages.dev/system/radar",
+    "/api/radar/config": "https://mock-ao0.pages.dev/system/radar/assets/config.json",
+    "/api/radar/dashboard": "https://mock-ao0.pages.dev/system/radar/assets/dashboard.json",
+    "/api/radar": "api:./api/radar",
+
+    "/package/admin": "https://mock-ao0.pages.dev/system/admin",
+    "/api/admin/config": "https://mock-ao0.pages.dev/system/admin/assets/config.json",
+    "/api/admin/dashboard": "https://mock-ao0.pages.dev/system/admin/assets/dashboard.json",
+    "/api/admin/i18n/en-US": "proxy:https://mock-ao0.pages.dev/system/admin/assets/i18n/en-US",
+    "/api/admin/i18n/es-US": "proxy:https://mock-ao0.pages.dev/system/admin/assets/i18n/es-US",
+    
+    "/package/dashboard": "https://mock-ao0.pages.dev/system/dashboard",
+    "/api/dashboard/config": "https://mock-ao0.pages.dev/system/dashboard/assets/config.json",
+
+    "/package/container": "https://container-ui.cfp.unisys.com",
+    "/package/inteliops": "https://inteliops-ui.cfp.unisys.com"
+
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "header": { 
+    "login": "ES: Log In",
+    "logout": "ES: Log Out"
+  },
+  "footer": {
+    "contact-sales": "ES: Contact Sales",
+    "terms": "ES: Terms",
+    "copyright": "ES: @ 2023 Unisys Corporation. All rights reserved."
+  }
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "home",
+    "label": "Home",
+    "sub": "User personalized dashboard.",
+    "icon": "home",
+    "order": 0,
+    "items": [],
+    "path": "/"
+  },
+  {
+    "id": "admin",
+    "label": "Admin",
+    "icon": "admin_panel_settings",
+    "order": 1000,
+    "path": "/admin/dashboard",
+    "items": [
+      {
+        "id": "permission",
+        "label": "Permissions",
+        "path": "/admin/permissions",
+        "icon": "workspaces",
+        "order": 1100
+      },
+      {
+        "id": "features",
+        "label": "Plaform API",
+        "path": "/admin/features",
+        "icon": "admin_panel_settings",
+        "order": 1200
+      },
+      {
+        "id": "design",
+        "label": "Design",
+        "icon": "view_cozy",
+        "order": 1300,
+        "items": [
+          {
+            "id": "themes",
+            "label": "Themes",
+            "path": "/admin/theme/",
+            "icon": "auto_awesome_motion",
+            "order": 1310
+          },
+          {
+            "id": "light-mode",
+            "label": "Light Mode",
+            "path": "/admin/theme/light",
+            "icon": "light_mode",
+            "order": 1320
+          },
+          {
+            "id": "dark-mode",
+            "label": "Dark Mode",
+            "path": "/admin/theme/dark",
+            "icon": "dark_mode",
+            "order": 1330
+          }
+        ]
+      },
+      {
+        "id": "error",
+        "label": "Error",
+        "path": "/error",
+        "icon": "workspaces",
+        "order": 1400
+      }
+    ]
+  },
+  {
+    "id": "greencloud",
+    "label": "Greencloud",
+    "icon": "nature",
+    "order": 2000,
+    "path": "/greencloud/dashboard",
+    "items": [
+      {
+        "id": "cloud-carbon-footprint",
+        "label": "Carbon Footprint",
+        "path": "/greencloud/cloud-carbon-footprint",
+        "icon": "co2",
+        "order": 2100
+      },
+      {
+        "id": "cloud-carbon-footprint-recommendations",
+        "label": "Recommendations",
+        "path": "/greencloud/recommendations",
+        "icon": "edit_note",
+        "order": 2200
+      }
+    ]
+  },
+  {
+    "id": "tech-radar",
+    "label": "Radars",
+    "icon": "radar",
+    "order": 3000,
+    "path": "/radar/dashboard",
+    "items": [
+      {
+        "id": "platform-radar",
+        "label": "Platform Radar",
+        "icon": "co2",
+        "order": 3100,
+        "items": [
+          {
+            "id": "platform-radar-blips",
+            "label": "Blips",
+            "path": "/radar/platform/search",
+            "icon": "radio_button_checked",
+            "order": 3110
+          },
+          {
+            "id": "platform-radar-segment-all",
+            "label": "Radar",
+            "path": "/radar/platform",
+            "icon": "leak_add",
+            "order": 3115
+          },
+          {
+            "id": "platform-radar-segment-apps",
+            "label": "Apps",
+            "path": "/radar/platform/app",
+            "icon": "apps",
+            "order": 3120
+          },
+          {
+            "id": "platform-radar-segment-platform",
+            "label": "Platform",
+            "path": "/radar/platform/platform",
+            "icon": "grid_view",
+            "order": 3130
+          },
+          {
+            "id": "platform-radar-segment-feature",
+            "label": "Feature",
+            "path": "/radar/platform/feature",
+            "icon": "featured_play_list",
+            "order": 3140
+          },
+          {
+            "id": "platform-radar-segment-service",
+            "label": "Service",
+            "path": "/radar/platform/service",
+            "icon": "electrical_services",
+            "order": 3150
+          },
+          {
+            "id": "platform-radar-segment-other",
+            "label": "Other",
+            "path": "/radar/platform/other",
+            "icon": "other_admission",
+            "order": 3160
+          }
+        ]
+      },
+      {
+        "id": "tech-radar",
+        "label": "Technology Radar",
+        "path": "/radar/tech",
+        "icon": "edit_note",
+        "order": 3200,
+        "items": [
+          {
+            "id": "tech-radar-blips",
+            "label": "Blips",
+            "path": "/radar/tech/search",
+            "icon": "radio_button_checked",
+            "order": 3210
+          },
+          {
+            "id": "tech-radar-segment-all",
+            "label": "Radar",
+            "path": "/radar/tech",
+            "icon": "leak_add",
+            "order": 3215
+          },
+          {
+            "id": "tech-radar-segment-technique",
+            "label": "Techniques",
+            "path": "/radar/tech/techniques",
+            "icon": "military_tech",
+            "order": 3220
+          },
+          {
+            "id": "tech-radar-segment-tools",
+            "label": "Tools",
+            "path": "/radar/tech/tools",
+            "icon": "construction",
+            "order": 3230
+          },
+          {
+            "id": "tech-radar-segment-platforms",
+            "label": "Platforms",
+            "path": "/radar/tech/platforms",
+            "icon": "grid_view",
+            "order": 3240
+          },
+          {
+            "id": "tech-radar-segment-languages-and-frameworks",
+            "label": "languages-and-frameworks",
+            "path": "/radar/tech/languages-and-frameworks",
+            "icon": "language",
+            "order": 3250
+          }
+        ]
+      }
+    ]
+  }
+]

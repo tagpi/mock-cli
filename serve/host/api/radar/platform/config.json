@@ -1,0 +1,84 @@
+{ 
+  "id": "platform",
+  "label": "Application Platform",
+  "base-path": "/radar",
+  "groups": [
+    { 
+      "id": "platform",
+      "label": "Platform",
+      "percent": 20,
+      "description": "Lorem ipsum ...",
+      "color": "#ffeeff",
+      "record-color": "green",
+      "record-hover-color": "red"
+    },
+    {
+      "id": "feature",
+      "label": "Feature",
+      "percent": 20,
+      "description": "Lorem ipsum ...",
+      "color": "#eeeeff",
+      "record-color": "blue",
+      "record-hover-color": "red"
+    },
+    { 
+      "id": "app",
+      "label": "App",
+      "percent": 20,
+      "description": "Lorem ipsum ...",
+      "color": "#ffeeee",
+      "record-color": "yellow",
+      "record-hover-color": "red"
+    },
+    { 
+      "id": "service",
+      "label": "Service",
+      "percent": 20,
+      "description": "Lorem ipsum ...",
+      "color": "#fee8ee",
+      "record-color": "orange",
+      "record-hover-color": "red"
+    },
+    { 
+      "id": "other",
+      "label": "Other",
+      "percent": 20,
+      "description": "Lorem ipsum ...",
+      "color": "#eeeeee",
+      "record-color": "purple",
+      "record-hover-color": "red"
+    }
+  ],
+  "stages": [
+    { 
+      "id": "stable",
+      "label": "Stable",
+      "area": 34,
+      "description": "Lorem ipsum ..."
+    },
+    { 
+      "id": "demo",
+      "label": "Release Candidate",
+      "area": 18,
+      "description": "Lorem ipsum ..."
+    },
+    { 
+      "id": "spike",
+      "label": "Stable",
+      "area": 17,
+      "description": "Lorem ipsum ..."
+    },
+    { 
+      "id": "assess",
+      "label": "Assess",
+      "area": 16,
+      "description": "Lorem ipsum ..."
+    },
+    { 
+      "id": "hold",
+      "label": "Hold",
+      "area": 15,
+      "description": "Lorem ipsum ..."
+    }
+  ]
+}

@@ -1,0 +1,1915 @@
+{
+  "palette": {
+    "steps": [
+      {
+        "suffix": "100",
+        "target": "#FFFFFF",
+        "percent": 1
+      },
+      {
+        "suffix": "90",
+        "target": "#FFFFFF",
+        "percent": 0.8
+      },
+      {
+        "suffix": "80",
+        "target": "#FFFFFF",
+        "percent": 0.6
+      },
+      {
+        "suffix": "70",
+        "target": "#FFFFFF",
+        "percent": 0.4
+      },
+      {
+        "suffix": "60",
+        "target": "#FFFFFF",
+        "percent": 0.2
+      },
+      {
+        "suffix": "50"
+      },
+      {
+        "suffix": "40",
+        "target": "#000000",
+        "percent": 0.2
+      },
+      {
+        "suffix": "30",
+        "target": "#000000",
+        "percent": 0.4
+      },
+      {
+        "suffix": "20",
+        "target": "#000000",
+        "percent": 0.6
+      },
+      {
+        "suffix": "10",
+        "target": "#000000",
+        "percent": 0.8
+      },
+      {
+        "suffix": "00",
+        "target": "#000000",
+        "percent": 1
+      }
+    ],
+    "colors": {
+      "unisys-bold-teal": {
+        "id": "unisys-bold-teal",
+        "color": "#003134",
+        "group": "other",
+        "variants": [
+          {
+            "colorId": "--unisys-bold-teal-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-bold-teal-90",
+            "color": "#ccd6d6"
+          },
+          {
+            "colorId": "--unisys-bold-teal-80",
+            "color": "#99adae"
+          },
+          {
+            "colorId": "--unisys-bold-teal-70",
+            "color": "#668385"
+          },
+          {
+            "colorId": "--unisys-bold-teal-60",
+            "color": "#335a5d"
+          },
+          {
+            "colorId": "--unisys-bold-teal-50",
+            "color": "#003134"
+          },
+          {
+            "colorId": "--unisys-bold-teal-40",
+            "color": "#00272a"
+          },
+          {
+            "colorId": "--unisys-bold-teal-30",
+            "color": "#001d1f"
+          },
+          {
+            "colorId": "--unisys-bold-teal-20",
+            "color": "#001415"
+          },
+          {
+            "colorId": "--unisys-bold-teal-10",
+            "color": "#000a0a"
+          },
+          {
+            "colorId": "--unisys-bold-teal-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-primary": {
+        "id": "unisys-primary",
+        "color": "#007173",
+        "group": "main",
+        "variants": [
+          {
+            "colorId": "--unisys-primary-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-primary-90",
+            "color": "#cce3e3"
+          },
+          {
+            "colorId": "--unisys-primary-80",
+            "color": "#99c6c7"
+          },
+          {
+            "colorId": "--unisys-primary-70",
+            "color": "#66aaab"
+          },
+          {
+            "colorId": "--unisys-primary-60",
+            "color": "#338d8f"
+          },
+          {
+            "colorId": "--unisys-primary-50",
+            "color": "#007173"
+          },
+          {
+            "colorId": "--unisys-primary-40",
+            "color": "#005a5c"
+          },
+          {
+            "colorId": "--unisys-primary-30",
+            "color": "#004445"
+          },
+          {
+            "colorId": "--unisys-primary-20",
+            "color": "#002d2e"
+          },
+          {
+            "colorId": "--unisys-primary-10",
+            "color": "#001717"
+          },
+          {
+            "colorId": "--unisys-primary-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-secondary": {
+        "id": "unisys-secondary",
+        "color": "#00e28b",
+        "group": "main",
+        "variants": [
+          {
+            "colorId": "--unisys-secondary-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-secondary-90",
+            "color": "#ccf9e8"
+          },
+          {
+            "colorId": "--unisys-secondary-80",
+            "color": "#99f3d1"
+          },
+          {
+            "colorId": "--unisys-secondary-70",
+            "color": "#66eeb9"
+          },
+          {
+            "colorId": "--unisys-secondary-60",
+            "color": "#33e8a2"
+          },
+          {
+            "colorId": "--unisys-secondary-50",
+            "color": "#00e28b"
+          },
+          {
+            "colorId": "--unisys-secondary-40",
+            "color": "#00b56f"
+          },
+          {
+            "colorId": "--unisys-secondary-30",
+            "color": "#008853"
+          },
+          {
+            "colorId": "--unisys-secondary-20",
+            "color": "#005a38"
+          },
+          {
+            "colorId": "--unisys-secondary-10",
+            "color": "#002d1c"
+          },
+          {
+            "colorId": "--unisys-secondary-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-tertiary": {
+        "id": "unisys-tertiary",
+        "color": "#1b00eb",
+        "group": "main",
+        "variants": [
+          {
+            "colorId": "--unisys-tertiary-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-tertiary-90",
+            "color": "#d1ccfb"
+          },
+          {
+            "colorId": "--unisys-tertiary-80",
+            "color": "#a499f7"
+          },
+          {
+            "colorId": "--unisys-tertiary-70",
+            "color": "#7666f3"
+          },
+          {
+            "colorId": "--unisys-tertiary-60",
+            "color": "#4933ef"
+          },
+          {
+            "colorId": "--unisys-tertiary-50",
+            "color": "#1b00eb"
+          },
+          {
+            "colorId": "--unisys-tertiary-40",
+            "color": "#1600bc"
+          },
+          {
+            "colorId": "--unisys-tertiary-30",
+            "color": "#10008d"
+          },
+          {
+            "colorId": "--unisys-tertiary-20",
+            "color": "#0b005e"
+          },
+          {
+            "colorId": "--unisys-tertiary-10",
+            "color": "#05002f"
+          },
+          {
+            "colorId": "--unisys-tertiary-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-quaternary": {
+        "id": "unisys-quaternary",
+        "color": "#fc7673",
+        "group": "main",
+        "variants": [
+          {
+            "colorId": "--unisys-gray-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-gray-90",
+            "color": "#fee4e3"
+          },
+          {
+            "colorId": "--unisys-gray-80",
+            "color": "#fec8c7"
+          },
+          {
+            "colorId": "--unisys-gray-70",
+            "color": "#fdadab"
+          },
+          {
+            "colorId": "--unisys-gray-60",
+            "color": "#fd918f"
+          },
+          {
+            "colorId": "--unisys-gray-50",
+            "color": "#fc7673"
+          },
+          {
+            "colorId": "--unisys-gray-40",
+            "color": "#ca5e5c"
+          },
+          {
+            "colorId": "--unisys-gray-30",
+            "color": "#974745"
+          },
+          {
+            "colorId": "--unisys-gray-20",
+            "color": "#652f2e"
+          },
+          {
+            "colorId": "--unisys-gray-10",
+            "color": "#321817"
+          },
+          {
+            "colorId": "--unisys-gray-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-gray": {
+        "id": "unisys-gray",
+        "color": "#888888",
+        "group": "main",
+        "variants": [
+          {
+            "colorId": "--unisys-gray-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-gray-90",
+            "color": "#e7e7e7"
+          },
+          {
+            "colorId": "--unisys-gray-80",
+            "color": "#cfcfcf"
+          },
+          {
+            "colorId": "--unisys-gray-70",
+            "color": "#b8b8b8"
+          },
+          {
+            "colorId": "--unisys-gray-60",
+            "color": "#a0a0a0"
+          },
+          {
+            "colorId": "--unisys-gray-50",
+            "color": "#888888"
+          },
+          {
+            "colorId": "--unisys-gray-40",
+            "color": "#6d6d6d"
+          },
+          {
+            "colorId": "--unisys-gray-30",
+            "color": "#525252"
+          },
+          {
+            "colorId": "--unisys-gray-20",
+            "color": "#363636"
+          },
+          {
+            "colorId": "--unisys-gray-10",
+            "color": "#1b1b1b"
+          },
+          {
+            "colorId": "--unisys-gray-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-info": {
+        "id": "unisys-info",
+        "color": "#e1f1f6",
+        "group": "notice",
+        "variants": [
+          {
+            "colorId": "--unisys-info-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-info-90",
+            "color": "#f9fcfd"
+          },
+          {
+            "colorId": "--unisys-info-80",
+            "color": "#f3f9fb"
+          },
+          {
+            "colorId": "--unisys-info-70",
+            "color": "#edf7fa"
+          },
+          {
+            "colorId": "--unisys-info-60",
+            "color": "#e7f4f8"
+          },
+          {
+            "colorId": "--unisys-info-50",
+            "color": "#e1f1f6"
+          },
+          {
+            "colorId": "--unisys-info-40",
+            "color": "#b4c1c5"
+          },
+          {
+            "colorId": "--unisys-info-30",
+            "color": "#879194"
+          },
+          {
+            "colorId": "--unisys-info-20",
+            "color": "#5a6062"
+          },
+          {
+            "colorId": "--unisys-info-10",
+            "color": "#2d3031"
+          },
+          {
+            "colorId": "--unisys-info-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-warning": {
+        "id": "unisys-warning",
+        "color": "#ff5555",
+        "group": "notice",
+        "variants": [
+          {
+            "colorId": "--unisys-warning-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-warning-90",
+            "color": "#ffdddd"
+          },
+          {
+            "colorId": "--unisys-warning-80",
+            "color": "#ffbbbb"
+          },
+          {
+            "colorId": "--unisys-warning-70",
+            "color": "#ff9999"
+          },
+          {
+            "colorId": "--unisys-warning-60",
+            "color": "#ff7777"
+          },
+          {
+            "colorId": "--unisys-warning-50",
+            "color": "#ff5555"
+          },
+          {
+            "colorId": "--unisys-warning-40",
+            "color": "#cc4444"
+          },
+          {
+            "colorId": "--unisys-warning-30",
+            "color": "#993333"
+          },
+          {
+            "colorId": "--unisys-warning-20",
+            "color": "#662222"
+          },
+          {
+            "colorId": "--unisys-warning-10",
+            "color": "#331111"
+          },
+          {
+            "colorId": "--unisys-warning-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-success": {
+        "id": "unisys-success",
+        "color": "#7ac800",
+        "group": "notice",
+        "variants": [
+          {
+            "colorId": "--unisys-success-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-success-90",
+            "color": "#e4f4cc"
+          },
+          {
+            "colorId": "--unisys-success-80",
+            "color": "#cae999"
+          },
+          {
+            "colorId": "--unisys-success-70",
+            "color": "#afde66"
+          },
+          {
+            "colorId": "--unisys-success-60",
+            "color": "#95d333"
+          },
+          {
+            "colorId": "--unisys-success-50",
+            "color": "#7ac800"
+          },
+          {
+            "colorId": "--unisys-success-40",
+            "color": "#62a000"
+          },
+          {
+            "colorId": "--unisys-success-30",
+            "color": "#497800"
+          },
+          {
+            "colorId": "--unisys-success-20",
+            "color": "#315000"
+          },
+          {
+            "colorId": "--unisys-success-10",
+            "color": "#182800"
+          },
+          {
+            "colorId": "--unisys-success-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-error": {
+        "id": "unisys-error",
+        "color": "#e62531",
+        "group": "notice",
+        "variants": [
+          {
+            "colorId": "--unisys-error-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-error-90",
+            "color": "#fad3d6"
+          },
+          {
+            "colorId": "--unisys-error-80",
+            "color": "#f5a8ad"
+          },
+          {
+            "colorId": "--unisys-error-70",
+            "color": "#f07c83"
+          },
+          {
+            "colorId": "--unisys-error-60",
+            "color": "#eb515a"
+          },
+          {
+            "colorId": "--unisys-error-50",
+            "color": "#e62531"
+          },
+          {
+            "colorId": "--unisys-error-40",
+            "color": "#b81e27"
+          },
+          {
+            "colorId": "--unisys-error-30",
+            "color": "#8a161d"
+          },
+          {
+            "colorId": "--unisys-error-20",
+            "color": "#5c0f14"
+          },
+          {
+            "colorId": "--unisys-error-10",
+            "color": "#2e070a"
+          },
+          {
+            "colorId": "--unisys-error-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-complimentary-1": {
+        "id": "unisys-complimentary-1",
+        "color": "#ff5555",
+        "group": "complimentary",
+        "variants": [
+          {
+            "colorId": "--unisys-complimentary-1-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-complimentary-1-90",
+            "color": "#ffdddd"
+          },
+          {
+            "colorId": "--unisys-complimentary-1-80",
+            "color": "#ffbbbb"
+          },
+          {
+            "colorId": "--unisys-complimentary-1-70",
+            "color": "#ff9999"
+          },
+          {
+            "colorId": "--unisys-complimentary-1-60",
+            "color": "#ff7777"
+          },
+          {
+            "colorId": "--unisys-complimentary-1-50",
+            "color": "#ff5555"
+          },
+          {
+            "colorId": "--unisys-complimentary-1-40",
+            "color": "#cc4444"
+          },
+          {
+            "colorId": "--unisys-complimentary-1-30",
+            "color": "#993333"
+          },
+          {
+            "colorId": "--unisys-complimentary-1-20",
+            "color": "#662222"
+          },
+          {
+            "colorId": "--unisys-complimentary-1-10",
+            "color": "#331111"
+          },
+          {
+            "colorId": "--unisys-complimentary-1-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-complimentary-2": {
+        "id": "unisys-complimentary-2",
+        "color": "#036079",
+        "group": "complimentary",
+        "variants": [
+          {
+            "colorId": "--unisys-complimentary-2-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-complimentary-2-90",
+            "color": "#cddfe4"
+          },
+          {
+            "colorId": "--unisys-complimentary-2-80",
+            "color": "#9abfc9"
+          },
+          {
+            "colorId": "--unisys-complimentary-2-70",
+            "color": "#68a0af"
+          },
+          {
+            "colorId": "--unisys-complimentary-2-60",
+            "color": "#358094"
+          },
+          {
+            "colorId": "--unisys-complimentary-2-50",
+            "color": "#036079"
+          },
+          {
+            "colorId": "--unisys-complimentary-2-40",
+            "color": "#024d61"
+          },
+          {
+            "colorId": "--unisys-complimentary-2-30",
+            "color": "#023a49"
+          },
+          {
+            "colorId": "--unisys-complimentary-2-20",
+            "color": "#012630"
+          },
+          {
+            "colorId": "--unisys-complimentary-2-10",
+            "color": "#011318"
+          },
+          {
+            "colorId": "--unisys-complimentary-2-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-complimentary-3": {
+        "id": "unisys-complimentary-3",
+        "color": "#82d4d5",
+        "group": "complimentary",
+        "variants": [
+          {
+            "colorId": "--unisys-complimentary-3-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-complimentary-3-90",
+            "color": "#e6f6f7"
+          },
+          {
+            "colorId": "--unisys-complimentary-3-80",
+            "color": "#cdeeee"
+          },
+          {
+            "colorId": "--unisys-complimentary-3-70",
+            "color": "#b4e5e6"
+          },
+          {
+            "colorId": "--unisys-complimentary-3-60",
+            "color": "#9bdddd"
+          },
+          {
+            "colorId": "--unisys-complimentary-3-50",
+            "color": "#82d4d5"
+          },
+          {
+            "colorId": "--unisys-complimentary-3-40",
+            "color": "#68aaaa"
+          },
+          {
+            "colorId": "--unisys-complimentary-3-30",
+            "color": "#4e7f80"
+          },
+          {
+            "colorId": "--unisys-complimentary-3-20",
+            "color": "#345555"
+          },
+          {
+            "colorId": "--unisys-complimentary-3-10",
+            "color": "#1a2a2b"
+          },
+          {
+            "colorId": "--unisys-complimentary-3-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-complimentary-4": {
+        "id": "unisys-complimentary-4",
+        "color": "#37cef3",
+        "group": "complimentary",
+        "variants": [
+          {
+            "colorId": "--unisys-complimentary-4-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-complimentary-4-90",
+            "color": "#d7f5fd"
+          },
+          {
+            "colorId": "--unisys-complimentary-4-80",
+            "color": "#afebfa"
+          },
+          {
+            "colorId": "--unisys-complimentary-4-70",
+            "color": "#87e2f8"
+          },
+          {
+            "colorId": "--unisys-complimentary-4-60",
+            "color": "#5fd8f5"
+          },
+          {
+            "colorId": "--unisys-complimentary-4-50",
+            "color": "#37cef3"
+          },
+          {
+            "colorId": "--unisys-complimentary-4-40",
+            "color": "#2ca5c2"
+          },
+          {
+            "colorId": "--unisys-complimentary-4-30",
+            "color": "#217c92"
+          },
+          {
+            "colorId": "--unisys-complimentary-4-20",
+            "color": "#165261"
+          },
+          {
+            "colorId": "--unisys-complimentary-4-10",
+            "color": "#0b2931"
+          },
+          {
+            "colorId": "--unisys-complimentary-4-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-complimentary-5": {
+        "id": "unisys-complimentary-5",
+        "color": "#ffb442",
+        "group": "complimentary",
+        "variants": [
+          {
+            "colorId": "--unisys-complimentary-5-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-complimentary-5-90",
+            "color": "#fff0d9"
+          },
+          {
+            "colorId": "--unisys-complimentary-5-80",
+            "color": "#ffe1b3"
+          },
+          {
+            "colorId": "--unisys-complimentary-5-70",
+            "color": "#ffd28e"
+          },
+          {
+            "colorId": "--unisys-complimentary-5-60",
+            "color": "#ffc368"
+          },
+          {
+            "colorId": "--unisys-complimentary-5-50",
+            "color": "#ffb442"
+          },
+          {
+            "colorId": "--unisys-complimentary-5-40",
+            "color": "#cc9035"
+          },
+          {
+            "colorId": "--unisys-complimentary-5-30",
+            "color": "#996c28"
+          },
+          {
+            "colorId": "--unisys-complimentary-5-20",
+            "color": "#66481a"
+          },
+          {
+            "colorId": "--unisys-complimentary-5-10",
+            "color": "#33240d"
+          },
+          {
+            "colorId": "--unisys-complimentary-5-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-complimentary-6": {
+        "id": "unisys-complimentary-6",
+        "color": "#7ac800",
+        "group": "complimentary",
+        "variants": [
+          {
+            "colorId": "--unisys-complimentary-6-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-complimentary-6-90",
+            "color": "#e4f4cc"
+          },
+          {
+            "colorId": "--unisys-complimentary-6-80",
+            "color": "#cae999"
+          },
+          {
+            "colorId": "--unisys-complimentary-6-70",
+            "color": "#afde66"
+          },
+          {
+            "colorId": "--unisys-complimentary-6-60",
+            "color": "#95d333"
+          },
+          {
+            "colorId": "--unisys-complimentary-6-50",
+            "color": "#7ac800"
+          },
+          {
+            "colorId": "--unisys-complimentary-6-40",
+            "color": "#62a000"
+          },
+          {
+            "colorId": "--unisys-complimentary-6-30",
+            "color": "#497800"
+          },
+          {
+            "colorId": "--unisys-complimentary-6-20",
+            "color": "#315000"
+          },
+          {
+            "colorId": "--unisys-complimentary-6-10",
+            "color": "#182800"
+          },
+          {
+            "colorId": "--unisys-complimentary-6-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-complimentary-7": {
+        "id": "unisys-complimentary-7",
+        "color": "#ff956e",
+        "group": "complimentary",
+        "variants": [
+          {
+            "colorId": "--unisys-complimentary-7-100",
+            "color": "#ffffff"
+          },
+          {
+            "colorId": "--unisys-complimentary-7-90",
+            "color": "#ffeae2"
+          },
+          {
+            "colorId": "--unisys-complimentary-7-80",
+            "color": "#ffd5c5"
+          },
+          {
+            "colorId": "--unisys-complimentary-7-70",
+            "color": "#ffbfa8"
+          },
+          {
+            "colorId": "--unisys-complimentary-7-60",
+            "color": "#ffaa8b"
+          },
+          {
+            "colorId": "--unisys-complimentary-7-50",
+            "color": "#ff956e"
+          },
+          {
+            "colorId": "--unisys-complimentary-7-40",
+            "color": "#cc7758"
+          },
+          {
+            "colorId": "--unisys-complimentary-7-30",
+            "color": "#995942"
+          },
+          {
+            "colorId": "--unisys-complimentary-7-20",
+            "color": "#663c2c"
+          },
+          {
+            "colorId": "--unisys-complimentary-7-10",
+            "color": "#331e16"
+          },
+          {
+            "colorId": "--unisys-complimentary-7-00",
+            "color": "#000000"
+          }
+        ]
+      },
+      "unisys-complimentary-8": {
+        "id": "unisys-complimentary-8",
+        "color": "#003134",
+        "group": "complimentary",
+        "variants": []
+      }
+    }
+  },
+  "measurement": {
+    "intervals": [
+      "4xs",
+      "3xs",
+      "2xs",
+      "xs",
+      "sm",
+      "md",
+      "lg",
+      "xl",
+      "2xl",
+      "3xl",
+      "4xl"
+    ],
+    "keys": {
+      "outline-width": {
+        "metric": "px",
+        "variants": {
+          "xs": "1",
+          "sm": "2",
+          "md": "4",
+          "lg": "8",
+          "xl": "16"
+        }
+      },
+      "outline-radius": {
+        "metric": "px",
+        "variants": {
+          "xs": "1",
+          "sm": "2",
+          "md": "3",
+          "lg": "4",
+          "xl": "5"
+        }
+      },
+      "panel-width": {
+        "metric": "px",
+        "variants": {
+          "md": "300",
+          "sm": "250",
+          "xs": "200",
+          "2xs": "150",
+          "3xs": "100",
+          "lg": "400",
+          "xl": "600",
+          "2xl": "800",
+          "3xl": "1200",
+          "4xl": "1600"
+        }
+      },
+      "panel-height": {
+        "metric": "px",
+        "variants": {
+          "md": "200",
+          "sm": "180",
+          "xs": "120",
+          "2xs": "100",
+          "3xs": "80",
+          "lg": "280",
+          "xl": "400",
+          "2xl": "600",
+          "3xl": "800",
+          "4xl": "1000"
+        }
+      },
+      "elevate": {
+        "metric": "shadow",
+        "variants": {
+          "md": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
+        }
+      },
+      "padding": {
+        "metric": "px",
+        "variants": {
+          "md": "8",
+          "2xs": "1",
+          "xs": "2",
+          "sm": "4",
+          "lg": "12",
+          "xl": "16",
+          "2xl": "24",
+          "3xl": "32",
+          "4xl": "48"
+        }
+      },
+      "margin": {
+        "metric": "px",
+        "variants": {
+          "md": "16",
+          "sm": "12",
+          "xs": "8",
+          "2xs": "4",
+          "3xs": "2",
+          "4xs": "1",
+          "lg": "24",
+          "xl": "32",
+          "2xl": "48",
+          "3xl": "64",
+          "4xl": "96"
+        }
+      },
+      "screen": {
+        "metric": "px",
+        "variants": {
+          "xs": "576",
+          "sm": "768",
+          "md": "992",
+          "lg": "1140",
+          "xl": "99999"
+        }
+      },
+      "line-height": {
+        "metric": "px",
+        "variants": {
+          "xs": "14",
+          "sm": "16",
+          "3xs": "10",
+          "2xs": "12",
+          "md": "18",
+          "lg": "24",
+          "xl": "28",
+          "2xl": "36",
+          "3xl": "56",
+          "4xl": "72"
+        }
+      },
+      "font-size": {
+        "metric": "px",
+        "variants": {
+          "md": "16",
+          "sm": "14",
+          "xs": "12",
+          "2xs": "10",
+          "3xs": "8",
+          "lg": "20",
+          "xl": "24",
+          "2xl": "32",
+          "3xl": "48",
+          "4xl": "64"
+        }
+      },
+      "size": {
+        "metric": "px",
+        "variants": {
+          "3xs": "8",
+          "2xs": "12",
+          "xs": "16",
+          "sm": "24",
+          "md": "32",
+          "lg": "48",
+          "xl": "64",
+          "2xl": "96",
+          "3xl": "128",
+          "4xl": "160",
+          "4xs": "4"
+        }
+      }
+    }
+  },
+  "theme": {
+    "assign": {
+      "color": {
+        "type": "color",
+        "root": true,
+        "prop": "background-color"
+      },
+      "on-color": {
+        "type": "color",
+        "root": true,
+        "prop": "color"
+      },
+      "padding": {
+        "type": "padding",
+        "root": true,
+        "prop": "padding"
+      },
+      "sub-color": {
+        "type": "color",
+        "prop": "background-color"
+      },
+      "sub-on-color": {
+        "type": "color",
+        "prop": "color"
+      },
+      "outline-color": {
+        "type": "color",
+        "prop": "border-color"
+      },
+      "outline-width": {
+        "type": "border-width",
+        "prop": "border-width"
+      },
+      "outline-radius": {
+        "type": "border-radius",
+        "prop": "border-radius",
+        "root": true
+      },
+      "outline-style": {
+        "type": "border-style",
+        "prop": "border-style",
+        "root": true
+      },
+      "elevate": {
+        "type": "text",
+        "prop": "box-shadow"
+      },
+      "margin": {
+        "type": "text",
+        "prop": "margin",
+        "root": true
+      },
+      "height": {
+        "type": "text",
+        "prop": "height",
+        "root": true
+      },
+      "width": {
+        "type": "text",
+        "prop": "width",
+        "root": true
+      },
+      "cursor": {
+        "type": "text",
+        "prop": "cursor",
+        "root": true
+      }
+    },
+    "addon": {
+      "sub": {
+        "selectors": " .sub",
+        "assign": [
+          "sub-color",
+          "sub-on-color"
+        ]
+      },
+      "outline": {
+        "selectors": ".outline",
+        "assign": [
+          "outline-color",
+          "outline-width"
+        ]
+      },
+      "elevate": {
+        "selectors": ".elevate",
+        "assign": [
+          "elevate"
+        ]
+      }
+    },
+    "state": {
+      "static": {
+        "priority": 1,
+        "selectors": "{themeId}"
+      },
+      "hover": {
+        "priority": 2,
+        "selectors": "{themeId}.hover, {themeId}:hover"
+      },
+      "active": {
+        "priority": 3,
+        "selectors": "{themeId}.active, {themeId}:active"
+      },
+      "disabled": {
+        "priority": 4,
+        "selectors": "{themeId}.disabled, {themeId}:disabled"
+      }
+    },
+    "theme": {
+      "mock": {
+        "group": "theme",
+        "priority": 0,
+        "var": {
+          "--mock--static--color": "#ffffff",
+          "--mock--static--on-color": "#1f1f1f",
+          "--mock--static--outline-color": "#00bd7e",
+          "--mock--static--outline-width": "2",
+          "--mock--static--outline-radius": "2",
+          "--mock--static--elevate": "var(--elevate-md)",
+          "--mock--hover--elevate": "",
+          "--mock--static--sub-on-color": "#636363"
+        }
+      },
+      "primary": {
+        "group": "theme",
+        "priority": 1,
+        "class": [
+          "theme",
+          "primary"
+        ],
+        "selectors": [
+          ".theme.primary",
+          ".theme.primary"
+        ],
+        "var": {
+          "--primary--static--color": "var(--unisys-bold-teal-50)",
+          "--primary--static--outline--outline-color": "#cde60f",
+          "--primary--static--outline-color": "var(--unisys-bold-teal-70)",
+          "--primary--static--on-color": "var(--unisys-gray-100)",
+          "--primary--static--padding": "var(--padding-md)",
+          "--primary--static--outline-radius": "var(--outline-radius-md)",
+          "--primary--static--outline-style": "solid",
+          "--primary--static--outline-width": "var(--outline-width-md)",
+          "--primary--static--sub-on-color": "var(--unisys-gray-80)"
+        }
+      },
+      "secondary": {
+        "group": "theme",
+        "priority": 2,
+        "class": [
+          "theme",
+          "secondary"
+        ],
+        "selectors": [
+          ".theme.secondary",
+          ".theme.secondary"
+        ],
+        "var": {
+          "--secondary--static--color": "var(--unisys-secondary-50)",
+          "--secondary--static--on-color": "var(--unisys-gray-100)",
+          "--secondary--static--sub-on-color": "var(--unisys-gray-80)",
+          "--secondary--static--outline-color": "var(--unisys-secondary-80)",
+          "--secondary--static--outline-width": "var(--outline-width-md)",
+          "--secondary--static--elevate": "var(--elevate-md)",
+          "--secondary--static--padding": "var(--padding-md)",
+          "--secondary--static--outline-style": "solid",
+          "--secondary--static--outline-radius": "var(--outline-radius-md)"
+        }
+      },
+      "tertiary": {
+        "group": "theme",
+        "priority": 3,
+        "class": [
+          "theme",
+          "tertiary"
+        ],
+        "selectors": [
+          ".theme.tertiary",
+          ".theme.tertiary"
+        ],
+        "var": {
+          "--tertiary--static--color": "var(--unisys-tertiary-50)",
+          "--tertiary--static--outline-color": "var(--unisys-tertiary-70)",
+          "--tertiary--static--on-color": "var(--unisys-gray-100)",
+          "--tertiary--static--elevate": "var(--elevate-md)",
+          "--tertiary--static--sub-on-color": "var(--unisys-gray-80)",
+          "--tertiary--static--outline-width": "var(--outline-width-md)",
+          "--tertiary--static--outline-radius": "var(--outline-radius-md)",
+          "--tertiary--static--outline-style": "solid",
+          "--tertiary--static--padding": "var(--padding-md)"
+        }
+      },
+      "warning": {
+        "group": "notice",
+        "priority": 300,
+        "selectors": [
+          ".warning",
+          ".section.warning"
+        ],
+        "class": [
+          "warning"
+        ],
+        "var": {
+          "--warning--static--color": "var(--unisys-warning-50)",
+          "--warning--static--on-color": "var(--unisys-gray-100)",
+          "--warning--static--outline-color": "var(--unisys-warning-70)",
+          "--warning--static--sub-on-color": "var(--unisys-warning-70)",
+          "--warning--static--outline-radius": "var(--outline-radius-md)",
+          "--warning--static--outline-style": "solid",
+          "--warning--static--padding": "var(--padding-md)",
+          "--warning--static--elevate": "var(--elevate-md)",
+          "--warning--static--outline-width": "var(--outline-width-md)"
+        }
+      },
+      "info": {
+        "group": "notice",
+        "priority": 100,
+        "selectors": [
+          ".info",
+          ".section.info"
+        ],
+        "class": [
+          "info"
+        ],
+        "var": {
+          "--info--static--color": "var(--unisys-info-50)",
+          "--info--static--on-color": "var(--unisys-gray-30)",
+          "--info--static--sub-on-color": "var(--unisys-gray-40)",
+          "--info--static--outline-color": "var(--unisys-info-70)",
+          "--info--static--outline-radius": "var(--outline-radius-md)",
+          "--info--static--outline-style": "solid",
+          "--info--static--padding": "var(--padding-md)",
+          "--info--static--elevate": "var(--elevate-md)",
+          "--info--static--outline-width": "var(--outline-width-md)"
+        }
+      },
+      "error": {
+        "group": "notice",
+        "priority": 4,
+        "selectors": [
+          ".error",
+          ".section.error"
+        ],
+        "class": [
+          "error"
+        ],
+        "var": {
+          "--error--static--color": "var(--unisys-error-50)",
+          "--error--static--on-color": "var(--unisys-gray-100)",
+          "--error--static--sub-on-color": "var(--unisys-error-70)",
+          "--error--static--outline-color": "var(--unisys-error-70)",
+          "--error--static--outline-radius": "var(--outline-radius-md)",
+          "--error--static--outline-style": "solid",
+          "--error--static--padding": "var(--padding-md)",
+          "--error--static--elevate": "var(--elevate-md)",
+          "--error--static--outline-width": "var(--outline-width-md)"
+        }
+      },
+      "success": {
+        "group": "notice",
+        "priority": 2,
+        "selectors": [
+          ".success",
+          ".section.success"
+        ],
+        "class": [
+          "success"
+        ],
+        "var": {
+          "--success--static--color": "var(--unisys-success-50)",
+          "--success--static--on-color": "var(--unisys-gray-100)",
+          "--success--static--outline-color": "var(--unisys-success-70)",
+          "--success--static--sub-on-color": "var(--unisys-gray-80)",
+          "--success--static--padding": "var(--padding-md)",
+          "--success--static--elevate": "var(--elevate-md)",
+          "--success--static--outline-radius": "var(--outline-radius-md)",
+          "--success--static--outline-style": "solid",
+          "--success--static--outline-width": "var(--outline-width-md)"
+        }
+      },
+      "header": {
+        "group": "layout",
+        "priority": 100,
+        "selectors": [
+          ".header"
+        ],
+        "class": [
+          "header"
+        ],
+        "var": {
+          "--header--static--color": "var(--unisys-bold-teal-50)",
+          "--header--static--on-color": "var(--unisys-gray-100)",
+          "--header--static--height": "var(--size-lg)"
+        }
+      },
+      "sub-header": {
+        "group": "layout",
+        "priority": 150,
+        "selectors": [
+          ".sub-header"
+        ],
+        "class": [
+          "sub-header"
+        ],
+        "var": {
+          "--sub-header--static--height": "var(--size-lg)",
+          "--sub-header--static--on-color": "var(--unisys-primary-50)",
+          "--sub-header--static--outline-style": "solid",
+          "--sub-header--static--outline-color": "var(--unisys-gray-90)",
+          "--sub-header--static--outline-width": "0 0 var(--outline-width-xs) 0",
+          "--sub-header--static--color": "var(--unisys-gray-100)"
+        }
+      },
+      "sub-header-link": {
+        "group": "layout",
+        "priority": 160,
+        "selectors": [
+          ".sub-header-link"
+        ],
+        "class": [
+          "sub-header-link"
+        ],
+        "var": {
+          "--sub-header-link--static--padding": "var(--padding-md) var(--padding-lg) 0",
+          "--sub-header-link--active--outline-width": "",
+          "--sub-header-link--static--outline-style": "solid",
+          "--sub-header-link--active--outline-style": "",
+          "--sub-header-link--active--outline-color": "var(--unisys-primary-50)",
+          "--sub-header-link--active--on-color": "var(--unisys-primary-50)",
+          "--sub-header-link--static--cursor": "pointer",
+          "--sub-header-link--disabled--cursor": "arrow",
+          "--sub-header-link--static--outline-color": "rgba(0,0,0,0)",
+          "--sub-header-link--static--outline-width": "0 0 var(--outline-width-md)",
+          "--sub-header-link--static--on-color": "var(--unisys-primary-50)",
+          "--sub-header-link--hover--on-color": "var(--unisys-primary-70)"
+        }
+      },
+      "section-header": {
+        "group": "section",
+        "priority": 200,
+        "selectors": [
+          ".section-header",
+          ".section .header"
+        ],
+        "class": [
+          "section-header"
+        ],
+        "var": {
+          "--section-header--static--color": "var(--unisys-gray-100)",
+          "--section-header--static--on-color": "var(--unisys-primary-50)",
+          "--section-header--static--outline-style": "solid",
+          "--section-header--static--padding": "var(--padding-sm)",
+          "--section-header--static--outline-color": "var(--unisys-primary-50)",
+          "--section-header--static--outline-width": "0 0 1px 0",
+          "--section-header--static--sub-on-color": "var(--unisys-primary-70)",
+          "--section-header--static--height": "auto"
+        }
+      },
+      "context": {
+        "group": "section",
+        "priority": 300,
+        "selectors": [
+          ".context",
+          ".section.context"
+        ],
+        "class": [
+          "context"
+        ],
+        "var": {
+          "--context--static--padding": "var(--padding-md)",
+          "--context--static--color": "",
+          "--context--static--on-color": "var(--unisys-gray-10)"
+        }
+      },
+      "actions": {
+        "group": "section",
+        "priority": 1000,
+        "selectors": [
+          ".actions"
+        ],
+        "class": [
+          "actions"
+        ],
+        "var": {
+          "--actions--static--padding": "var(--padding-md)",
+          "--actions--static--outline-style": "solid",
+          "--actions--static--outline-width": "var(--outline-width-xs) 0 0 0",
+          "--actions--static--outline-color": "var(--unisys-primary-50)",
+          "--actions--static--outline-radius": ""
+        }
+      },
+      "footer": {
+        "group": "layout",
+        "priority": 200,
+        "selectors": [
+          ".footer"
+        ],
+        "class": [
+          "footer"
+        ],
+        "var": {
+          "--footer--static--color": "var(--unisys-gray-100)",
+          "--footer--static--on-color": "var(--unisys-gray-80)",
+          "--footer--static--padding": "var(--padding-md)"
+        }
+      },
+      "page": {
+        "group": "page",
+        "priority": 100,
+        "selectors": [
+          ".page"
+        ],
+        "class": [
+          "page"
+        ],
+        "var": {
+          "--page--static--padding": "var(--padding-xl)"
+        }
+      },
+      "section": {
+        "group": "section",
+        "priority": 100,
+        "selectors": [
+          ".section"
+        ],
+        "class": [
+          "section"
+        ],
+        "var": {
+          "--section--static--padding": "var(--padding-lg) 0",
+          "--section--static--elevate": "var(--elevate-md)",
+          "--section--static--outline-style": "solid",
+          "--section--static--outline-radius": "var(--outline-radius-md)",
+          "--section--static--on-color": "var(--unisys-gray-10)",
+          "--section--static--outline-color": "var(--unisys-gray-90)",
+          "--section--static--outline-width": "var(--outline-width-sm)",
+          "--section--static--sub-color": "",
+          "--section--static--sub-on-color": "var(--unisys-gray-70)",
+          "--section--static--margin": "0 0 var(--margin-md)",
+          "--section--static--color": "var(--unisys-gray-100)"
+        }
+      },
+      "side-nav-main": {
+        "group": "side-nav",
+        "priority": 100,
+        "selectors": [
+          ".side-nav-main"
+        ],
+        "class": [
+          "side-nav-main"
+        ],
+        "var": {
+          "--side-nav-main--static--color": "var(--unisys-gray-80)",
+          "--side-nav-main--static--on-color": "var(--unisys-bold-teal-50)"
+        }
+      },
+      "side-nav-main-link": {
+        "group": "side-nav",
+        "priority": 101,
+        "selectors": [
+          ".side-nav-main-link"
+        ],
+        "class": [
+          "side-nav-main-link"
+        ],
+        "var": {
+          "--side-nav-main-link--static--color": "",
+          "--side-nav-main-link--static--on-color": "var(--unisys-primary-50)",
+          "--side-nav-main-link--hover--color": "var(--unisys-gray-90)",
+          "--side-nav-main-link--active--color": "var(--unisys-gray-100)",
+          "--side-nav-main-link--static--outline-color": "rgba(0,0,0,0)",
+          "--side-nav-main-link--static--outline-width": "0 0 0 var(--outline-width-md)",
+          "--side-nav-main-link--static--outline-style": "solid",
+          "--side-nav-main-link--active--outline-color": "var(--unisys-primary-50)",
+          "--side-nav-main-link--active--outline-width": "",
+          "--side-nav-main-link--static--padding": "var(--padding-md)",
+          "--side-nav-main-link--active--on-color": "var(--unisys-primary-50)"
+        }
+      },
+      "side-nav-sub": {
+        "group": "side-nav",
+        "priority": 300,
+        "selectors": [
+          ".side-nav-sub"
+        ],
+        "class": [
+          "side-nav-sub"
+        ],
+        "var": {
+          "--side-nav-sub--static--color": "#E4E4E4",
+          "--side-nav-sub--static--on-color": "var(--unisys-gray-20)",
+          "--side-nav-sub--hover--color": "",
+          "--side-nav-sub--hover--on-color": "",
+          "--side-nav-sub--static--padding": ""
+        }
+      },
+      "side-nav-sub-link": {
+        "group": "side-nav",
+        "priority": 302,
+        "selectors": [
+          ".side-nav-sub-link"
+        ],
+        "class": [
+          "side-nav-sub-link"
+        ],
+        "var": {
+          "--side-nav-link--static--color": "var(--unisys-gray-90)",
+          "--side-nav-link--static--on-color": "var(--unisys-bold-teal-50)",
+          "--side-nav-link--static--outline-style": "dashed",
+          "--side-nav-link--static--outline-width": "var(--outline-width-sm) 0 0 0",
+          "--side-nav-link--static--outline-color": "var(--unisys-gray-60)",
+          "--side-nav-link--hover--color": "var(--unisys-gray-100)",
+          "--side-nav-link--hover--on-color": "var(--unisys-bold-teal-70)",
+          "--side-nav-sub-link--hover--color": "var(--unisys-gray-100)",
+          "--side-nav-sub-link--static--padding": "var(--padding-md) var(--padding-lg)"
+        }
+      },
+      "side-nav-header": {
+        "group": "side-nav",
+        "priority": 200,
+        "selectors": [
+          ".side-nav-header"
+        ],
+        "class": [
+          "side-nav-header"
+        ],
+        "var": {
+          "--side-nav-header--static--color": "var(--unisys-gray-70)",
+          "--side-nav-header--static--on-color": "var(--unisys-gray-20)",
+          "--side-nav-header--static--padding": "0 0 0 var(--padding-lg)",
+          "--side-nav-header--hover--color": "var(--unisys-gray-70)"
+        }
+      },
+      "side-nav-link": {
+        "group": "side-nav",
+        "priority": 401,
+        "selectors": [
+          ".side-nav-link"
+        ],
+        "class": [
+          "side-nav-link"
+        ],
+        "var": {
+          "--side-nav-link--static--color": "#F3F3F3",
+          "--side-nav-link--static--on-color": "var(--unisys-bold-teal-50)",
+          "--side-nav-link--static--outline-style": "dashed",
+          "--side-nav-link--static--outline-width": "var(--outline-width-sm) 0 0 0",
+          "--side-nav-link--static--outline-color": "var(--unisys-gray-60)",
+          "--side-nav-link--hover--color": "var(--unisys-gray-100)",
+          "--side-nav-link--hover--on-color": "var(--unisys-bold-teal-70)",
+          "--side-nav-link--static--padding": "var(--padding-md) var(--padding-lg)"
+        }
+      },
+      "button": {
+        "group": "button",
+        "priority": 1,
+        "selectors": [
+          ".button",
+          "button"
+        ],
+        "class": [
+          "button"
+        ],
+        "var": {
+          "--button--static--color": "var(--unisys-gray-100)",
+          "--button--static--on-color": "var(--unisys-primary-50)",
+          "--button--static--padding": "var(--padding-md)",
+          "--button--static--outline-radius": "var(--outline-radius-md)",
+          "--button--hover--color": "var(--unisys-gray-90)",
+          "--button--active--on-color": "var(--unisys-primary-50)",
+          "--button--active--outline-color": "var(--unisys-primary-70)",
+          "--button--static--outline-color": "var(--unisys-primary-70)",
+          "--button--static--outline-style": "solid",
+          "--button--static--elevate": "var(--elevate-md)",
+          "--button--static--outline-width": "var(--outline-width-md)",
+          "--button--static--sub-on-color": "var(--unisys-primary-70)",
+          "--button--disabled--color": "var(--unisys-gray-100)",
+          "--button--disabled--on-color": "var(--unisys-gray-90)",
+          "--button--disabled--sub-on-color": "var(--unisys-gray-90)",
+          "--button--disabled--outline-color": "var(--unisys-gray-90)"
+        }
+      },
+      "button-primary": {
+        "group": "button",
+        "priority": 2,
+        "class": [
+          "button",
+          "primary"
+        ],
+        "selectors": [
+          ".button.primary",
+          "button.primary"
+        ],
+        "var": {
+          "--button-primary--static--color": "var(--unisys-primary-50)",
+          "--button-primary--static--on-color": "var(--unisys-gray-100)",
+          "--button-primary--hover--color": "var(--unisys-primary-60)",
+          "--button-primary--hover--on-color": "",
+          "--button-primary--active--color": "",
+          "--button-primary--disabled--color": "var(--unisys-gray-80)",
+          "--button-primary--disabled--on-color": "var(--unisys-gray-90)",
+          "--button-primary--active--on-color": "var(--unisys-complimentary-5-50)",
+          "--button-primary--static--padding": "var(--padding-md)",
+          "--button-primary--static--outline-radius": "var(--outline-radius-md)",
+          "--button-primary--static--outline-color": "var(--unisys-primary-70)",
+          "--button-primary--static--outline-width": "var(--outline-width-md)",
+          "--button-primary--static--sub-color": "",
+          "--button-primary--static--sub-on-color": "#9e9e9e",
+          "--button-primary--static--outline-style": "solid",
+          "--button-primary--disabled--sub-on-color": "var(--unisys-gray-90)",
+          "--button-primary--hover--outline-color": "var(--unisys-primary-80)",
+          "--button-primary--disabled--sub-color": "",
+          "--button-primary--active--outline-color": "var(--unisys-complimentary-5-50)",
+          "--button-primary--active--outline-width": "",
+          "--button-primary--disabled--outline-color": "var(--unisys-gray-90)"
+        }
+      },
+      "button-secondary": {
+        "group": "button",
+        "priority": 2,
+        "class": [
+          "button",
+          "secondary"
+        ],
+        "selectors": [
+          ".button.secondary",
+          "button.secondary"
+        ],
+        "var": {
+          "--button-secondary--static--color": "var(--unisys-secondary-50)",
+          "--button-secondary--static--on-color": "var(--unisys-gray-100)",
+          "--button-secondary--static--outline-radius": "var(--outline-radius-md)",
+          "--button-secondary--static--outline-style": "solid",
+          "--button-secondary--static--padding": "var(--padding-md)",
+          "--button-secondary--static--outline-color": "var(--unisys-secondary-70)",
+          "--button-secondary--static--outline-width": "var(--outline-width-md)",
+          "--button-secondary--static--sub-on-color": "var(--unisys-gray-90)",
+          "--button-secondary--hover--color": "var(--unisys-secondary-60)",
+          "--button-secondary--active--outline-color": "var(--unisys-complimentary-5-50)",
+          "--button-secondary--disabled--color": "var(--unisys-gray-80)",
+          "--button-secondary--disabled--on-color": "var(--unisys-gray-100)",
+          "--button-secondary--disabled--sub-on-color": "var(--unisys-gray-90)",
+          "--button-secondary--disabled--outline-color": "var(--unisys-gray-90)",
+          "--button-secondary--hover--outline-color": "var(--unisys-secondary-80)",
+          "--button-secondary--active--on-color": "var(--unisys-gray-100)"
+        }
+      },
+      "button-tertiary": {
+        "group": "button",
+        "priority": 3,
+        "class": [
+          "button",
+          "tertiary"
+        ],
+        "selectors": [
+          ".button.tertiary",
+          "button.tertiary"
+        ],
+        "var": {
+          "--button-tertiary--active--on-color": "var(--unisys-complimentary-5-50)",
+          "--button-tertiary--static--color": "var(--unisys-tertiary-50)",
+          "--button-tertiary--static--on-color": "var(--unisys-gray-100)",
+          "--button-tertiary--static--outline-radius": "var(--outline-radius-md)",
+          "--button-tertiary--static--outline-color": "var(--unisys-tertiary-70)",
+          "--button-tertiary--hover--outline-color": "var(--unisys-tertiary-80)",
+          "--button-tertiary--hover--color": "var(--unisys-tertiary-60)",
+          "--button-tertiary--static--outline-style": "solid",
+          "--button-tertiary--static--padding": "var(--padding-md)",
+          "--button-tertiary--static--elevate": "var(--elevate-md)",
+          "--button-tertiary--static--outline-width": "var(--outline-width-md)",
+          "--button-tertiary--static--sub-on-color": "var(--unisys-gray-70)",
+          "--button-tertiary--active--outline-color": "var(--unisys-complimentary-5-50)",
+          "--button-tertiary--disabled--color": "var(--unisys-gray-90)",
+          "--button-tertiary--disabled--on-color": "var(--unisys-gray-80)",
+          "--button-tertiary--disabled--sub-on-color": "var(--unisys-gray-80)",
+          "--button-tertiary--disabled--outline-color": "var(--unisys-gray-80)"
+        }
+      },
+      "input": {
+        "group": "input",
+        "priority": 1,
+        "class": [
+          "input"
+        ],
+        "selectors": [
+          "input",
+          ".input"
+        ],
+        "var": {
+          "--input--static--on-color": "var(--unisys-gray-10)",
+          "--input--static--color": "var(--unisys-gray-100)",
+          "--input--static--outline-style": "solid",
+          "--input--static--outline-radius": "var(--outline-radius-md)",
+          "--input--static--padding": "var(--padding-sm)",
+          "--input--static--outline-color": "var(--unisys-gray-80)",
+          "--input--static--outline-width": "var(--outline-width-xs)"
+        }
+      }
+    }
+  },
+  "font": {
+    "elements": {
+      "body": {
+        "var": {
+          "--body--font-family": "arial",
+          "--body--font-size": "var(--font-size-md)",
+          "--body--line-height": "var(--line-height-md)",
+          "--body--color": "var(--unisys-gray-10)"
+        }
+      },
+      "h1": {
+        "var": {
+          "--h1--font-size": "var(--font-size-2xl)",
+          "--h1--line-height": "var(--line-height-2xl)",
+          "--h1--padding": "var(--padding-md) 0"
+        }
+      },
+      "h2": {
+        "var": {
+          "--h2--font-size": "var(--font-size-xl)",
+          "--h2--line-height": "var(--line-height-xl)"
+        }
+      },
+      "h3": {
+        "var": {
+          "--h3--font-size": "var(--font-size-lg)",
+          "--h3--line-height": "var(--line-height-lg)"
+        }
+      },
+      "h4": {
+        "var": {
+          "--h4--font-size": "var(--font-size-md)",
+          "--h4--line-height": "var(--line-height-md)"
+        }
+      },
+      "h5": {
+        "var": {
+          "--h5--font-size": "var(--font-size-sm)",
+          "--h5--line-height": "var(--line-height-sm)"
+        }
+      },
+      "h6": {
+        "var": {
+          "--h6--font-size": "var(--font-size-xs)",
+          "--h6--line-height": "var(--line-height-xs)"
+        }
+      },
+      "div": {
+        "var": {
+          "--div--font-family": "arial",
+          "--div--font-size": "var(--font-size-md)",
+          "--div--line-height": "var(--line-height-md)"
+        }
+      },
+      "p": {
+        "var": {
+          "--p--font-size": "var(--font-size-md)",
+          "--p--line-height": "var(--line-height-md)"
+        }
+      },
+      "span": {
+        "var": {
+          "--span--font-size": "var(--font-size-md)",
+          "--span--line-height": "var(--line-height-md)"
+        }
+      },
+      "sub": {
+        "selectors": [
+          "sub",
+          ".sub"
+        ],
+        "var": {
+          "--sub--font-size": "var(--font-size-xs)",
+          "--sub--line-height": "var(--line-height-sm)",
+          "--sub--color": "var(--unisys-gray-50)"
+        }
+      },
+      "footer": {
+        "selectors": [
+          "footer",
+          ".footer"
+        ],
+        "var": {
+          "--footer--font-size": "var(--font-size-sm)",
+          "--footer--line-height": "var(--line-height-sm)",
+          "--footer--font-style": "italic"
+        }
+      }
+    },
+    "assign": {
+      "font-family": {
+        "type": "text",
+        "prop": "font-family"
+      },
+      "font-size": {
+        "type": "number",
+        "prop": "font-size",
+        "suffix": "px"
+      },
+      "font-style": {
+        "type": "text",
+        "prop": "font-style"
+      },
+      "font-weight": {
+        "type": "text",
+        "prop": "font-weight"
+      },
+      "line-height": {
+        "type": "number",
+        "prop": "line-height",
+        "suffix": "px"
+      },
+      "color": {
+        "type": "color",
+        "prop": "color"
+      },
+      "padding": {
+        "type": "text",
+        "prop": "padding"
+      }
+    }
+  }
+}

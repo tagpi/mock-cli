@@ -1,0 +1,161 @@
+{
+  "authorization": {
+    "system-permission-1": false,
+    "system-permission-2": true,
+    "system-permission-3": { 
+      "enabled": true,
+      "userPermissionRequired": true
+    },
+    "system-permission-4": { 
+      "enabled": true
+    },
+    "system-permission-5": { 
+      "start": "2023-12-01"
+    },
+    "system-permission-6": { 
+      "start": "2023-01-01",
+      "end": "2023-02-01"
+    }
+  },
+  "feature": {
+    "theme": { 
+      "config": {
+        "override": false,
+        "source": "/api/theme/{themeId}",
+        "stylesheets": {
+          "reset": "/assets/theme/reset.css",
+          "theme-styles": "/assets/theme/styles.css"
+        }
+      }
+    },
+    "layout": {
+      "remote": {
+        "module": "layout/material",
+        "entry": "/feature/layout/material/remoteEntry.mjs"
+      },
+      "translation": "/api/layout/i18n/:lang",
+      "config": {
+        "logo": "unisys-logo.png",
+        "header-styles": "header",
+        "side-nav-links": "/api/layout/nav",
+        "header-theme-toggle": true
+      },
+      "authorization": {
+        "layout-permission-1": false,
+        "layout-permission-2": true
+      }
+    },
+    "xx-auth": {
+      "enabled": false,
+      "remote": {
+        "module": "auth/discord",
+        "entry": "/feature/discord/oauth/remoteEntry.js"
+      },
+      "config": {
+        "client-id": "1129897999888294040",
+        "client-secret": "nVp8q7d6rYkGsdLTNaDvCdD7O35fK3Jh"
+      }
+    },
+    "auth": {
+      "enabled": true,
+      "remote": {
+        "module": "auth/google",
+        "entry": "/feature/google/oauth/remoteEntry.js"
+      },
+      "config": {
+        "client-id": "147728060237-ta6n6q277v33fer0sro2pa78at8aastv.apps.googleusercontent.com",
+        "profile-retrieve-url": "/api/user/identify"
+      }
+    },
+    "translation": {
+      "config": {
+        "cache": true,
+        "languages": [
+          "en-US", 
+          "es-US"
+        ]
+      }
+    },
+    "task": {
+      "config": {
+        "boot-selector": "#boot-loader",
+        "boot-class": "visible"
+      }
+    }
+  },
+  "app": { 
+    "user/dashboard": { 
+      "path": "",
+      "framework": "angular",
+      "remote": "/package/dashboard/remoteEntry.mjs",
+      "config": "/api/user/dashboard"
+    },
+    "overview": {
+      "framework": "angular",
+      "remote": "/package/overview/remoteEntry.mjs",
+      "config": "/api/overview/config"
+    },
+    "error": {
+      "catch": true,
+      "framework": "angular",
+      "remote": "/package/error/remoteEntry.mjs",
+      "config": "/package/error/assets/config.json",
+      "translation": "/api/error/i18n/:lang"
+    },
+    "admin/dashboard": { 
+      "framework": "angular",
+      "remote": "/package/dashboard/remoteEntry.mjs",
+      "config": "/api/admin/dashboard"
+    },
+    "admin": {
+      "framework": "angular",
+      "remote": "/package/admin/remoteEntry.mjs",
+      "config": "/api/admin/config",
+      "translation": "/api/admin/i18n/:lang",
+      "authorization": {
+        "admin-permission-1": false,
+        "admin-permission-2": true
+      }
+    },
+    "radar/dashboard": { 
+      "framework": "angular",
+      "remote": "/package/dashboard/remoteEntry.mjs",
+      "config": "/api/radar/dashboard"
+    },
+    "radar": {
+      "framework": "angular",
+      "remote": "/package/radar/remoteEntry.mjs",
+      "config": "/api/radar/config",
+      "authorization": {
+        "admin-permission-1": false,
+        "admin-permission-2": true
+      }
+    },
+    "greencloud/dashboard": { 
+      "framework": "angular",
+      "remote": "/package/dashboard/remoteEntry.mjs",
+      "config": "/api/greencloud/dashboard"
+    },
+    "greencloud/cloud-carbon-footprint": {
+      "framework": "react",
+      "remote": "/package/greencloud/remoteEntry.js",
+      "config": "/api/greencloud/config"
+    },
+    "greencloud/recommendations": {
+      "framework": "react",
+      "remote": "/package/greencloud/remoteEntry.js",
+      "config": "/api/greencloud/config",
+      "component": "recommendations"
+    },
+    "container": {
+      "framework": "react",
+      "remote": "/package/container/remoteEntry.js",
+      "config": "/api/greencloud/config"
+    },
+    "inteliops": {
+      "framework": "react",
+      "remote": "/package/inteliops/remoteEntry.js",
+      "config": "/api/greencloud/config"
+    } 
+  }
+}

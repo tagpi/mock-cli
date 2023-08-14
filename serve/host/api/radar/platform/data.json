@@ -1,0 +1,92 @@
+[
+  {
+    "id": "nx",
+    "name": "NX",
+    "stage": "spike",
+    "group": "platform",
+    "status": "in",
+    "entry": "2023-08-01",
+    "description": "Module federated application development framework"
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "stage": "stable",
+    "group": "platform",
+    "status": "in",
+    "entry": "2023-08-01",
+    "description": "Angular is a platform for building mobile and desktop web applications. Join the community of millions of developers who build compelling user interfaces ..."
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "stage": "stable",
+    "group": "platform",
+    "status": "in",
+    "entry": "2023-08-01"
+  },
+  {
+    "id": "vue",
+    "name": "Vue",
+    "stage": "hold",
+    "group": "platform",
+    "status": "in",
+    "entry": "2023-08-01"
+  },
+  {
+    "id": "web-components",
+    "name": "Web Components",
+    "stage": "assess",
+    "group": "platform",
+    "status": "in",
+    "entry": "2023-08-01"
+  },
+  {
+    "id": "cloud-carbon-footprint",
+    "name": "Cloud Carbon Footprint",
+    "stage": "spike",
+    "group": "app",
+    "status": "in",
+    "entry": "2023-08-01"
+  },
+  {
+    "id": "radar",
+    "name": "Radar",
+    "stage": "spike",
+    "group": "app",
+    "status": "in",
+    "entry": "2023-08-01"
+  },
+  {
+    "id": "google-auth",
+    "name": "Google OAuth",
+    "stage": "demo",
+    "group": "feature",
+    "status": "in",
+    "entry": "2023-08-01"
+  },
+  {
+    "id": "discord-auth",
+    "name": "Discord OAuth",
+    "stage": "demo",
+    "group": "feature",
+    "status": "in",
+    "entry": "2023-08-01"
+  },
+  {
+    "id": "layout",
+    "name": "Layout",
+    "stage": "assess",
+    "group": "service",
+    "status": "in",
+    "entry": "2023-08-01"
+  },
+  {
+    "id": "cli",
+    "name": "Command Line Interface",
+    "stage": "hold",
+    "group": "other",
+    "status": "in",
+    "entry": "2023-08-01"
+  }
+]
