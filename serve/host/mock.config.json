@@ -42,8 +42,8 @@
     "/package/admin": "https://mock-ao0.pages.dev/system/admin",
     "/api/admin/config": "https://mock-ao0.pages.dev/system/admin/assets/config.json",
     "/api/admin/dashboard": "https://mock-ao0.pages.dev/system/admin/assets/dashboard.json",
-    "/api/admin/i18n/en-US": "proxy:https://mock-ao0.pages.dev/system/admin/assets/i18n/en-US.json",
-    "/api/admin/i18n/es-US": "proxy:https://mock-ao0.pages.dev/system/admin/assets/i18n/es-US.json",
+    "/api/admin/i18n/en-US": "https://mock-ao0.pages.dev/system/admin/assets/i18n/en-US.json",
+    "/api/admin/i18n/es-US": "https://mock-ao0.pages.dev/system/admin/assets/i18n/es-US.json",
     
     "/package/dashboard": "https://mock-ao0.pages.dev/system/dashboard",
     "/api/dashboard/config": "https://mock-ao0.pages.dev/system/dashboard/assets/config.json",
